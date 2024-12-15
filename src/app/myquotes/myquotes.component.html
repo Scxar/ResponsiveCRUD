@@ -1,0 +1,18 @@
+<div id="content">
+    <h3>My favorite quotes</h3>
+    <p>Fill these with your favorite quotes from the books you've read!</p>
+    <div id="list">
+        <ul>
+            <li *ngFor="let quote of quotes; let i = index" class="quote-item">
+                <h4>#{{ i + 1 }}</h4>
+                <input 
+                    type="text" 
+                    [(ngModel)]="quote.text" 
+                    placeholder="Enter your favorite quotes"
+                    class="quote-bubble"
+                />
+                <button type="button" class="btn btn-success" (click)="saveQuote(quote)">Save</button>
+            </li>
+        </ul>
+    </div>
+</div>

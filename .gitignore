@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Skapade av min men behövs/fungerar inte
+.env
+/backend/node_modules
+/backend/

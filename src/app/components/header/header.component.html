@@ -1,0 +1,21 @@
+<header>
+    <nav>
+        <div class="dropdown">
+            <i class="fa-solid fa-bars" (click)="dropdownVisible()"></i>
+            <div id="dropdown-content">
+                <ul>
+                    <li><a routerLink="/">Home</a></li>
+                    <li><a routerLink="/addbook">Add Book</a></li>
+                    <li><a routerLink="/myquotes">My quotes</a></li>    
+                    <li><a routerLink="login">Profile</a></li>
+                </ul>  
+            </div>          
+        </div>
+        <div id="navLinks">
+            <a routerLink="/"><i class="fa-solid fa-house"></i><span>Home</span></a>
+            <a routerLink="/addbook"><i class="fa-solid fa-book"></i><span>Add book</span></a>
+            <a routerLink="/myquotes"><i class="fa-solid fa-quote-left"></i><span>My quotes</span><i class="fa-solid fa-quote-right"></i></a>
+        </div>
+        <a routerLink="login"><i class="fa-regular fa-user" id="user"></i></a>
+    </nav>
+</header>     
