@@ -42,4 +42,3 @@ Thumbs.db
 # Skapade av min men behövs/fungerar inte
 secret.env
 /backend/node_modules
-/backend/
